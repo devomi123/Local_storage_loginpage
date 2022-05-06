@@ -1,0 +1,37 @@
+<form action="" [formGroup]="formdata" >
+  <div class="container text-center mt-5">
+    <div style="border: 2px solid; height: 500px; background-color: rgb(240, 194, 125);">
+  <div class="login">
+    <label for="">Email :</label>
+  <input class="form-control" type="email" formControlName="email">
+  </div>
+  <div class="pass mt-3">
+    <label for="">Password :</label>
+  <input class="form-control" type="password" formControlName="password">
+  </div>
+  <div>
+    <button class="btn btn-primary mt-5" type="submit" [disabled]="!formdata.valid" (click)="submitdata(formdata.value)" >Login</button>&nbsp;
+    <a routerLink="register"><button class="btn btn-dark mt-5" type="submit" name="register" >register</button></a> 
+
+  </div>
+
+
+    </div>
+  </div>
+
+</form>
+
+
+
+<style>
+  .login{
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .pass{
+    width: 50%;
+    margin-left: 25%;
+
+  }
+</style>

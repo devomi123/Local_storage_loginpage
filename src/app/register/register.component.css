@@ -1,0 +1,20 @@
+.container{
+   margin-top: 5%;
+  border: 2px solid;
+  height:600px;
+  background-color: #F0C27D;
+
+
+}
+.bord{
+  margin-top: 4%;
+
+}
+.form-control{
+  width: 50%;
+  margin-left: 25%;
+
+}
+.btn{
+  margin-top: 10px;
+}
