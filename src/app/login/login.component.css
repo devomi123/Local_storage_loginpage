@@ -1,0 +1,14 @@
+body
+{
+  background-image: url(../../assets/download.jpg)
+}
+.login{
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 25%;
+}
+.pass{
+  width: 50%;
+  margin-left: 25%;
+
+}

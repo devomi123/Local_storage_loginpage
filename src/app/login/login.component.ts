@@ -27,10 +27,9 @@ export class LoginComponent implements OnInit {
   console.log(data )
   // alert("hello")
 
+    // localStorage.getItem("Register",local)
   }
 
-  register(){
 
-  }
 
 }
